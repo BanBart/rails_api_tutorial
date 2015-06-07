@@ -4,13 +4,14 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'compass-rails', '~> 2.0.2'
+gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -51,3 +52,11 @@ group :development, :test do
 end
 
 gem 'devise'
+
+#sabisu
+
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+gem 'execjs'
